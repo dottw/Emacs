@@ -1,5 +1,5 @@
 # Check Org mode version
 
-```emacs-lisp
+```lisp
 M-x org-version
 ```
