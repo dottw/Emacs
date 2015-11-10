@@ -1,5 +1,5 @@
 # Check Org mode version
 
-```lisp
+```elisp
 M-x org-version
 ```
