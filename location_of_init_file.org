@@ -1,0 +1,25 @@
+#+TITLE: Emacs 設定檔路徑
+
+* 介紹
+  Emacs 在啟動時會讀取 initialization file 來初始化你個人的 Emacs. 這個檔案的名稱分別可已是 
+  + ~/.emacs
+  + ~/.emacs.el
+  + ~/.emacs.d/init.el 
+  但有些要手動建立.
+  
+* Ubuntu 14.04
+  安裝後會出現在使用者根目錄下
+  
+* Linux Mint 17
+  打開 Terminal 輸入
+  #+BEGIN_SRC sh
+    $ cd ~
+    $ touch .emacs
+  #+END_SRC
+
+* Windows 7
+   .emacs 位在 C:\Users\ *UserName* \AppData\Roaming 下\\
+   .emacs.d 位在 C:\Users\ *UserName* \AppData\Roaming 下
+
+* 參考資料
+  [[http://www.gnu.org/software/emacs/manual/html_node/emacs/Init-File.html][48.4 The Emacs Initialization File]]
