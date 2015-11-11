@@ -1,6 +1,6 @@
 # Emacs
 
-[設定擋路徑](location_of_init_file)
+[設定擋路徑](location_of_init_file.org)
 
 ## Org mode
    + [檢查 Org mode 版本](org_mode/check_org_mode_version.md)
