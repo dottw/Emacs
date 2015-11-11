@@ -1,0 +1,7 @@
+#+TITLE: 設定 find-file 的預設開啟資料夾
+
+假設預設開啟資料夾為 "~/Dropbox/, 那就在 .emacs 加入下列指令
+
+#+BEGIN_SRC emacs
+  (setq command-line-default-directory "~/Dropbox/")
+#+END_SRC
